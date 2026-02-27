@@ -42,6 +42,7 @@ void loop() {
 
     // TODO 7:
     // If obstacle detected
+
     if (irState == LOW) {
         Serial.println("Obstacle Detected");
     } else {
